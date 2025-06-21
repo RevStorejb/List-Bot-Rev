@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>List Bot Push Kontak</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Arial', sans-serif;
+      color: white;
+      background: linear-gradient(-45deg, #000000, #1a1a1a, #000033, #2d0000);
+      background-size: 400% 400%;
+      animation: bgmove 10s infinite linear;
+    }
+    @keyframes bgmove {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    .marquee {
+      background: red;
+      padding: 10px;
+      font-weight: bold;
+      font-size: 18px;
+      overflow: hidden;
+      white-space: nowrap;
+      box-shadow: 0 0 10px red;
+    }
+    .marquee-text {
+      display: inline-block;
+      animation: marquee 10s linear infinite;
+    }
+    @keyframes marquee {
+      0% { transform: translateX(100%) }
+      100% { transform: translateX(-100%) }
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      border: 5px solid;
+      border-radius: 20px;
+      animation: lampu 2s infinite;
+      text-align: center;
+    }
+    @keyframes lampu {
+      0% { border-color: red; box-shadow: 0 0 15px red; }
+      33% { border-color: blue; box-shadow: 0 0 15px blue; }
+      66% { border-color: black; box-shadow: 0 0 15px black; }
+      100% { border-color: red; box-shadow: 0 0 15px red; }
+    }
+    .logo {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+      box-shadow: 0 0 12px #00aaff;
+      margin: 10px auto 20px;
+      display: block;
+    }
+    h1 {
+      color: #00aaff;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px #00ffff;
+    }
+    .list {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 0 15px #000;
+    }
+    .item {
+      display: flex;
+      justify-content: space-between;
+      background: #111;
+      margin-bottom: 12px;
+      padding: 12px 16px;
+      border-radius: 10px;
+      box-shadow: 0 0 8px #00aaff;
+      align-items: center;
+    }
+    .btn-order {
+      background: #ff0000;
+      border: none;
+      color: white;
+      padding: 8px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .btn-order:hover {
+      background: #00aaff;
+      transform: scale(1.05);
+    }
+    .beli-semua {
+      display: block;
+      margin: 30px auto 10px auto;
+      background: #00ff00;
+      color: #000;
+      padding: 14px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 12px;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: 0 0 10px #00ff00;
+      transition: 0.3s;
+    }
+    .beli-semua:hover {
+      background: #00cc00;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Musik autoplay dari file lokal -->
+  <audio autoplay loop>
+    <source src="3982772433786458075-c.mp3" type="audio/mp3">
+    Browser Anda tidak mendukung audio.
+  </audio>
+
+  <div class="marquee">
+    <div class="marquee-text">🔥 LIST BOT PUSH KONTAK OTOMATIS | KLIK UNTUK ORDER DI WHATSAPP 🔥</div>
+  </div>
+
+  <div class="container">
+    <!-- Logo Profil -->
+    <img src="https://files.catbox.moe/jnl4tf.jpg" alt="Logo Profil" class="logo">
+
+    <h1>LIST BOT PUSH KONTAK</h1>
+    <div class="list">
+      <!-- List Produk -->
+      <div class="item"><span>1K - 1GB</span><a class="btn-order" href="https://wa.me/6281324982853?text=Order%201K%20-%201GB">Order</a></div>
+      <div class="item"><span>2K - 2GB</span><a class="btn-order" href="https://wa.me/6281324982853?text=Order%202K%20-%202GB">Order</a></div>
+      <div class="item"><span>3K - 3GB</span><a class="btn-order" href="https://wa.me/6281324982853?text=Order%203K%20-%203GB">Order</a></div>
+      <div class="item"><span>4K - 4GB</span><a class="btn-order" href="https://wa.me/6281324982853?text=Order%204K%20-%204GB">Order</a></div>
+      <div class="item"><span>5K - 5GB</span><a class="btn-order" href="https://wa.me/6281324982853?text=Order%205K%20-%205GB">Order</a></div>
+      <div class="item"><span>6K - 6GB</span><a class="btn-order" href="https://wa.me/6281324982853?text=Order%206K%20-%206GB">Order</a></div>
+      <div class="item"><span>7K - 7GB</span><a class="btn-order" href="https://wa.me/6281324982853?text=Order%207K%20-%207GB">Order</a></div>
+      <div class="item"><span>8K - 8GB</span><a class="btn-order" href="https://wa.me/6281324982853?text=Order%208K%20-%208GB">Order</a></div>
+      <div class="item"><span>9K - 9GB</span><a class="btn-order" href="https://wa.me/6281324982853?text=Order%209K%20-%209GB">Order</a></div>
+      <div class="item"><span>10K - 10GB</span><a class="btn-order" href="https://wa.me/6281324982853?text=Order%2010K%20-%2010GB">Order</a></div>
+      <div class="item"><span>11K - 11GB</span><a class="btn-order" href="https://wa.me/6281324982853?text=Order%2011K%20-%2011GB">Order</a></div>
+    </div>
+
+    <!-- Tombol beli otomatis -->
+    <a class="beli-semua" href="https://wa.me/6281324982853?text=Halo%20saya%20mau%20beli%20paket%20Bot%20Push%20Kontak%20otomatis%2C%20tolong%20info%20lengkapnya.">BELI OTOMATIS SEKARANG</a>
+  </div>
+
+</body>
+</html>
